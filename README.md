@@ -6,7 +6,7 @@ Les données sont tirées du fichier disponible sur le site de l'[Arcep](https:/
 ## Exemple
 Un exemple complet est disponible sur [ma page personnelle GitHub](https://baptistehugot.github.io/ZF1/), et un exemple de rendu de cette carte au format .png est disponible ci-dessous.
 
-<img src="https://user-images.githubusercontent.com/19981614/76576008-21fe4880-64c1-11ea-878c-fedc1af05b7a.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/19981614/76576216-bf597c80-64c1-11ea-859d-30a597197e11.png" width="30%"></img>
 
 ## Ecrit avec
 * [Javascript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - Le langage de programmation utilisé pour gérer la gestion de la carte et des bibliothèques
