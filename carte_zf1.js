@@ -25,7 +25,7 @@ function getColor(year) {
   year == 2021 ? '#fdbf6f' :
   year == 2022 ? '#ff7f00' :
   year == 2023 ? '#cab2d6' :
-  year == 2024 ? '6a3d9a' :
+  year == 2024 ? '#6a3d9a' :
   '#D8B2D8';
 }
 
