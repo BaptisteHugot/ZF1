@@ -16,15 +16,16 @@ var info;
 * @param L'année concernée
 */
 function getColor(year) {
-  return year == 2015 ? '#b2182b' :
-  year == 2016 ? '#ef8a62' :
-  year == 2017 ? '#fddbc7' :
-  year == 2018 ? '#f7f7f7' :
-  year == 2019 ? '#d1e5f0' :
-  year == 2020 ? '#67a9cf' :
-  year == 2021 ? '#2166ac' :
-  year == 2022 ? '#32cd32' :
-  year == 2023 ? '#7fff00' :
+  return year == 2015 ? '#a6cee3' :
+  year == 2016 ? '#1f78b4' :
+  year == 2017 ? '#b2df8a' :
+  year == 2018 ? '#33a02c' :
+  year == 2019 ? '#fb9a99' :
+  year == 2020 ? '#e31a1c' :
+  year == 2021 ? '#fdbf6f' :
+  year == 2022 ? '#ff7f00' :
+  year == 2023 ? '#cab2d6' :
+  year == 2024 ? '6a3d9a' :
   '#D8B2D8';
 }
 
@@ -169,7 +170,7 @@ function initMap() {
   legend.onAdd = function(map) {
     var div = L.DomUtil.create('div', 'info legend'),
     grades = [],
-    labels = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
+    labels = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024];
 
     // On boucle sur toutes les valeurs et on génère une étiquette avec la bonne couleur pour chaque valeur
     for (var i = 0; i < labels.length; i++) {
